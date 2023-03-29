@@ -14,13 +14,13 @@ const LandingPage = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">About Us</a>
+              <a>About Us</a>
             </li>
             <li>
-              <a href="#">Service</a>
+              <a>Service</a>
             </li>
             <li>
-              <a href="#">Login</a>
+              <a>Login</a>
             </li>
             <button className="register_btn btn btn-primary">Register</button>
           </ul>

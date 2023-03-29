@@ -4,6 +4,7 @@ import { BiWallet } from "react-icons/bi";
 import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 import Footer from "../../Component/Footer/Footer";
 
 const SearchHotel = () => {
@@ -46,7 +47,9 @@ const SearchHotel = () => {
             <Form.Label className="label_field_hotel_search">Amount</Form.Label>
             <Form.Control type="number" />
 
-            <button className="button_search_hotel">SEARCH</button>
+            <Link to="/hotel/search/list" className="btn button_search_hotel">
+              SEARCH
+            </Link>
           </div>
         </div>
       </div>

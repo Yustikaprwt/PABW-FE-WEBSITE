@@ -4,6 +4,7 @@ import { BiWallet } from "react-icons/bi";
 import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 import Footer from "../../Component/Footer/Footer";
 
 const SearchFlight = () => {
@@ -42,7 +43,6 @@ const SearchFlight = () => {
             <Form.Label className="label_field_flight_search">To</Form.Label>
             <Form.Select aria-label="Default select example">
               <option>Arrive in</option>
-              <option value="1">Jakarta</option>
               <option value="2">Bali</option>
               <option value="3">Makassar</option>
             </Form.Select>
@@ -55,7 +55,12 @@ const SearchFlight = () => {
             </Form.Label>
             <Form.Control type="number" />
 
-            <button className="button_search_flight">SEARCH</button>
+            <Link
+              to="/flight/search/schedule"
+              className="btn button_search_flight"
+            >
+              SEARCH
+            </Link>
           </div>
         </div>
       </div>

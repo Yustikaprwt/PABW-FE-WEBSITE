@@ -1,4 +1,4 @@
-.title_flight_schedule {
+.title_hotel_list {
   padding-left: 2%;
   padding-right: 30%;
   margin-top: 75px;
@@ -9,7 +9,7 @@
   line-height: 52px;
 }
 
-.title_flight_schedule h1 {
+.title_hotel_list h1 {
   color: white;
   text-shadow: #808080 3px 4px 3px;
   font-weight: 600;
@@ -17,14 +17,14 @@
   line-height: 10px;
 }
 
-.title_flight_schedule span {
+.title_hotel_list span {
   color: white;
   text-shadow: #808080 3px 4px 3px;
   font-weight: 600;
   font-size: 21px;
 }
 
-.flight_schedule_table {
+.hotel_list_table {
   background-color: white;
   padding: 15px 15px 0px 15px;
   border-radius: 3px;
@@ -34,25 +34,26 @@
   margin-top: 1% !important;
 }
 
-.label_flight_schedule {
+.label_hotel_list {
   font-weight: 600 !important;
   background-color: rgba(27, 104, 218, 0.7) !important;
   color: white !important;
   font-size: 16px !important;
 }
 
-.option_destination_schedule {
+.option_hotel_list {
   font-weight: 300 !important;
   font-size: 15px !important;
   color: #1b68da !important;
   padding: 10px !important;
 }
 
-.option_destination_schedule td {
-  border: none !important;
+.option_hotel_list td {
+  border: none;
+  vertical-align: middle;
 }
 
-.button_detail_flight_schedule {
+.button_detail_hotel {
   font-size: 13px !important;
   font-weight: 300 !important;
   border-style: none !important;
@@ -63,7 +64,11 @@
   color: white !important;
 }
 
-.button_detail_flight_schedule:hover {
-  background-color: #faff00 !important;
+.button_detail_hotel:hover {
   color: #1b68da !important;
+  background-color: #faff00 !important;
+}
+
+.option_hotel_list img {
+  width: 135px;
 }

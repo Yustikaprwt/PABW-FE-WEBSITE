@@ -4,6 +4,7 @@ import { BiWallet } from "react-icons/bi";
 import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
 import Footer from "../../Component/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const FlightSchedule = () => {
   return (
@@ -35,56 +36,87 @@ const FlightSchedule = () => {
                 <th scope="col" className="label_flight_schedule">
                   Airline
                 </th>
-                <th scope="col" className="label_flight_schedule">Flight Time</th>
-                <th scope="col" className="label_flight_schedule">Flight Duration</th>
-                <th scope="col" className="label_flight_schedule">Price</th>
-                <th scope="col" className="label_flight_schedule">Detail</th>
+                <th scope="col" className="label_flight_schedule">
+                  Flight Time
+                </th>
+                <th scope="col" className="label_flight_schedule">
+                  Flight Duration
+                </th>
+                <th scope="col" className="label_flight_schedule">
+                  Price
+                </th>
+                <th scope="col" className="label_flight_schedule">
+                  Detail
+                </th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">Lion Air</th>
+              <tr className="option_destination_schedule">
+                <th scope="row" style={{ fontWeight: "300", border: "none" }}>
+                  Lion Air
+                </th>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
                 <td>
-                  <button>Detail</button>
+                  <button className="btn button_detail_flight_schedule">
+                    Detail
+                  </button>
                 </td>
               </tr>
-              <tr>
-                <th scope="row">Super Air Jet</th>
+              <tr className="option_destination_schedule">
+                <th scope="row" style={{ fontWeight: "300", border: "none" }}>
+                  Super Air Jet
+                </th>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
                 <td>
-                  <button>Detail</button>
+                  <Link
+                    to="/flight/detail"
+                    className="btn button_detail_flight_schedule"
+                  >
+                    Detail
+                  </Link>
                 </td>
               </tr>
-              <tr>
-                <th scope="row">Garuda Indonesia</th>
+              <tr className="option_destination_schedule">
+                <th scope="row" style={{ fontWeight: "300", border: "none" }}>
+                  Garuda Indonesia
+                </th>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
                 <td>
-                  <button>Detail</button>
+                  <button className="btn button_detail_flight_schedule">
+                    Detail
+                  </button>
                 </td>
               </tr>
-              <tr>
-                <th scope="row">Citilink</th>
+              <tr className="option_destination_schedule">
+                <th scope="row" style={{ fontWeight: "300", border: "none" }}>
+                  Citilink
+                </th>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
                 <td>
-                  <button>Detail</button>
+                  <button className="btn button_detail_flight_schedule">
+                    Detail
+                  </button>
                 </td>
               </tr>
-              <tr>
-                <th scope="row">Batik Air</th>
+              <tr className="option_destination_schedule">
+                <th scope="row" style={{ fontWeight: "300", border: "none" }}>
+                  Batik Air
+                </th>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
                 <td>
-                  <button>Detail</button>
+                  <button className="btn button_detail_flight_schedule">
+                    Detail
+                  </button>
                 </td>
               </tr>
             </tbody>

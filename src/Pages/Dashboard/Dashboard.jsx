@@ -54,7 +54,7 @@ const Dashboard = () => {
               >
                 Flight
               </Card.Title>
-              <Card.Img className="card_image ms-3" src={Airplane} />
+              <Card.Img className="card_image_dashboard ms-3" src={Airplane} />
               <Card.Body>
                 <Card.Text
                   className="text-center"
@@ -68,7 +68,7 @@ const Dashboard = () => {
                   here!
                 </Card.Text>
                 <Link
-                  to="/search/flight"
+                  to="/flight/schedule"
                   className="btn btn-primary mt-2 d-flex justify-content-center"
                 >
                   Check here
@@ -94,7 +94,7 @@ const Dashboard = () => {
               >
                 Hotel
               </Card.Title>
-              <Card.Img className="card_image ms-3" src={Hotel} />
+              <Card.Img className="card_image_dashboard  ms-3" src={Hotel} />
               <Card.Body>
                 <Card.Text
                   className="text-center"
@@ -108,7 +108,7 @@ const Dashboard = () => {
                   facilities!
                 </Card.Text>
                 <Link
-                  to="/search/hotel"
+                  to="/hotel/list"
                   className="btn btn-primary mt-2 d-flex justify-content-center"
                 >
                   Check here

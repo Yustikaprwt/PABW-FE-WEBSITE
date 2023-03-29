@@ -1,0 +1,43 @@
+.detail_date {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1b68da;
+  line-height: 5;
+}
+
+.estimation_flight_time {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  color: #1b68da;
+}
+
+.booking_flight_card {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.airplane_name {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1b68da;
+}
+
+.booking_button {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1b68da;
+  background-color: #faff00;
+  padding: 5px;
+  width: 100px;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.booking_button:hover {
+  color: #faff00;
+  background-color: #1b68da;
+}
