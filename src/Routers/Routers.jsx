@@ -15,9 +15,7 @@ const Routers = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        {/* <Route path="/flight/search" element={<SearchFlight />} />
-        <Route path="/hotel/search" element={<SearchHotel />} /> */}
+        <Route path="/dashboard" element={<Dashboard />} />        
         <Route path="/flight/schedule" element={<FlightSchedule />} />
         <Route path="/hotel/list" element={<HotelList />} />
         <Route path="/flight/detail" element={<DetailFlight />} />
