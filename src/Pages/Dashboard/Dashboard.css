@@ -16,7 +16,10 @@
 }
 
 .card_image_dashboard {
-  width: 50vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 328px !important;
   border-radius: 20px !important;
 }
 

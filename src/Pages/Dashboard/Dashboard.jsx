@@ -22,7 +22,9 @@ const Dashboard = () => {
               <BiWallet className="icon_navbar_login" />
             </li>
             <li>
-              <SlBasket className="icon_navbar_login" />
+              <Link to="/basket">
+                <SlBasket className="icon_navbar_login" />
+              </Link>
             </li>
             <li>
               <CgProfile className="icon_navbar_login" />
@@ -54,7 +56,7 @@ const Dashboard = () => {
               >
                 Flight
               </Card.Title>
-              <Card.Img className="card_image_dashboard ms-3" src={Airplane} />
+              <img className="card_image_dashboard ms-3" src={Airplane} />
               <Card.Body>
                 <Card.Text
                   className="text-center"
@@ -94,7 +96,7 @@ const Dashboard = () => {
               >
                 Hotel
               </Card.Title>
-              <Card.Img className="card_image_dashboard  ms-3" src={Hotel} />
+              <img className="card_image_dashboard  ms-3" src={Hotel} />
               <Card.Body>
                 <Card.Text
                   className="text-center"

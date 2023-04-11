@@ -1,0 +1,35 @@
+.hotel_ticket_detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.hotel_name {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1b68da;
+  border-bottom: 2px solid #1b68da;
+  padding-bottom: 15px;
+}
+
+.estimation_stay {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #1b68da;
+}
+
+.preview_hotel_ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.hotel_name_section {
+  background-color: #faff00;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 30px;
+}

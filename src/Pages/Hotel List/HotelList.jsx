@@ -27,10 +27,6 @@ const HotelList = () => {
             </li>
           </ul>
         </nav>
-        <div className="title_hotel_list">
-          <h1>Monday, 12 March 2023 - Tuesday, 13 March 2023</h1>
-          <span>Bali</span>
-        </div>
 
         <div className="hotel_list_table">
           <table className="table text-center">
@@ -41,6 +37,9 @@ const HotelList = () => {
                 </th>
                 <th scope="col" className="label_hotel_list">
                   Hotel Name
+                </th>
+                <th scope="col" className="label_hotel_list">
+                  City
                 </th>
                 <th scope="col" className="label_hotel_list">
                   Rating
@@ -60,10 +59,13 @@ const HotelList = () => {
                 </td>
 
                 <td>Eden Hotel</td>
+                <td>Bali</td>
                 <td>5.0</td>
                 <td>IDR 2.500.000</td>
                 <td>
-                  <Link className="btn button_detail_hotel">Detail</Link>
+                  <Link to="/hotel/detail" className="btn button_detail_hotel">
+                    Detail
+                  </Link>
                 </td>
               </tr>
               <tr className="option_hotel_list">
@@ -71,6 +73,7 @@ const HotelList = () => {
                   <img src={Hotel_2} alt="img" />
                 </td>
                 <td>Kuta Paradiso</td>
+                <td>Bali</td>
                 <td>4.3</td>
                 <td>IDR 1.650.000</td>
                 <td>
@@ -82,6 +85,7 @@ const HotelList = () => {
                   <img src={Hotel_3} alt="img" />
                 </td>
                 <td>The Flora Kuta Bali</td>
+                <td>Bali</td>
                 <td>4.8</td>
                 <td>IDR 2.100.000</td>
                 <td>

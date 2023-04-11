@@ -1,6 +1,6 @@
 .detail_date {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-size: 16px;
   font-weight: 400;
   color: #1b68da;
@@ -21,9 +21,11 @@
 }
 
 .airplane_name {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: #1b68da;
+  border-bottom: 2px solid #1b68da;
+  padding-bottom: 15px;
 }
 
 .booking_button {
@@ -40,4 +42,11 @@
 .booking_button:hover {
   color: #faff00;
   background-color: #1b68da;
+}
+
+.airplane_name_section {
+  background-color: #faff00;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 30px;
 }

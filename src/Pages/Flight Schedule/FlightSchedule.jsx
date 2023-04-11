@@ -24,10 +24,6 @@ const FlightSchedule = () => {
             </li>
           </ul>
         </nav>
-        <div className="title_flight_schedule">
-          <h1>Monday, 12 March 2023</h1>
-          <span>Jakarta - Makassar</span>
-        </div>
 
         <div className="flight_schedule_table">
           <table className="table text-center">
@@ -35,6 +31,12 @@ const FlightSchedule = () => {
               <tr>
                 <th scope="col" className="label_flight_schedule">
                   Airline
+                </th>
+                <th scope="col" className="label_flight_schedule">
+                  Destination
+                </th>
+                <th scope="col" className="label_flight_schedule">
+                  Flight Date
                 </th>
                 <th scope="col" className="label_flight_schedule">
                   Flight Time
@@ -55,6 +57,8 @@ const FlightSchedule = () => {
                 <th scope="row" style={{ fontWeight: "300", border: "none" }}>
                   Lion Air
                 </th>
+                <td>Jakarta - Makassar</td>
+                <td>Monday, 12 March 2023</td>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
@@ -68,6 +72,8 @@ const FlightSchedule = () => {
                 <th scope="row" style={{ fontWeight: "300", border: "none" }}>
                   Super Air Jet
                 </th>
+                <td>Jakarta - Makassar</td>
+                <td>Monday, 12 March 2023</td>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
@@ -84,6 +90,8 @@ const FlightSchedule = () => {
                 <th scope="row" style={{ fontWeight: "300", border: "none" }}>
                   Garuda Indonesia
                 </th>
+                <td>Jakarta - Makassar</td>
+                <td>Monday, 12 March 2023</td>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
@@ -97,6 +105,8 @@ const FlightSchedule = () => {
                 <th scope="row" style={{ fontWeight: "300", border: "none" }}>
                   Citilink
                 </th>
+                <td>Jakarta - Makassar</td>
+                <td>Monday, 12 March 2023</td>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>
@@ -110,6 +120,8 @@ const FlightSchedule = () => {
                 <th scope="row" style={{ fontWeight: "300", border: "none" }}>
                   Batik Air
                 </th>
+                <td>Jakarta - Makassar</td>
+                <td>Monday, 12 March 2023</td>
                 <td>04:45 - 08.10 WIB</td>
                 <td>2 hours 25 minute</td>
                 <td>IDR 968.100</td>

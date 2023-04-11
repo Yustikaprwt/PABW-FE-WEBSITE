@@ -8,6 +8,7 @@ import FlightSchedule from "../Pages/Flight Schedule/FlightSchedule";
 import HotelList from "../Pages/Hotel List/HotelList";
 import DetailFlight from "../Pages/Detail Flight/DetailFlight";
 import DetailHotel from "../Pages/Detail Hotel/DetailHotel";
+import BasketPage from "../Pages/Basket Page/BasketPage";
 
 const Routers = () => {
   return (
@@ -19,8 +20,9 @@ const Routers = () => {
         <Route path="/hotel/search" element={<SearchHotel />} /> */}
         <Route path="/flight/schedule" element={<FlightSchedule />} />
         <Route path="/hotel/list" element={<HotelList />} />
-        <Route path="flight/detail" element={<DetailFlight />} />
+        <Route path="/flight/detail" element={<DetailFlight />} />
         <Route path="/hotel/detail" element={<DetailHotel />} />
+        <Route path="/basket" element={<BasketPage />} />
       </Routes>
     </BrowserRouter>
   );

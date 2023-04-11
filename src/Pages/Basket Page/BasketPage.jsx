@@ -1,16 +1,15 @@
 import React from "react";
-import "../Detail Hotel/DetailHotel.css";
+import "../Basket Page/BasketPage.css";
 import { BiWallet } from "react-icons/bi";
 import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
-import { RiHotelFill } from "react-icons/ri";
-import Hotel_1 from "../../Assets/Hotel_2.jpg";
+import { GiAirplaneDeparture } from "react-icons/gi";
 import Footer from "../../Component/Footer/Footer";
 
-const DetailHotel = () => {
+const BasketPage = () => {
   return (
     <>
-      <div className="navbarSection">
+      <div className="navbar_basket_page">
         <nav className="nav_dahboard">
           <button className="button_logout btn btn-danger">Logout</button>
           <ul>
@@ -25,36 +24,27 @@ const DetailHotel = () => {
             </li>
           </ul>
         </nav>
-        <div className="hotel_ticket_detail">
+        <div className="booking_flight_card">
           <div className="card w-75 mb-3">
             <div className="card-body">
-              <h5 className="hotel_name card-title">
-                <div className="hotel_name_section">
-                  <RiHotelFill
+              <h5 className="airplane_name card-title">
+                <div className="airplane_name_section">
+                  <GiAirplaneDeparture
                     style={{
                       height: "30px",
                       width: "30px",
                       marginRight: "10px",
                     }}
-                  />{" "}
-                  Hotel Eden Kuta
+                  />
+                  Super Air Jet
                 </div>
               </h5>
 
-              <div className="preview_hotel_ticket">
-                <img
-                  style={{ width: "22vw", height: "22vh" }}
-                  src={Hotel_1}
-                  alt="img"
-                />
-                <p className="detail_date card-text">
-                  Jalan Kartika Plaza 42 Kuta, Kuta, Bali, Indonesia, 80361.
-                </p>
-              </div>
+              <p className="detail_date card-text">Monday, 12 March 2023</p>
 
-              <div className="estimation_stay">
-                <p>Monday, 12 March 2023</p>
-                <p>Tuesday, 13 March 2023</p>
+              <div className="estimation_flight_time">
+                <p>04:45 WIB - Soekarno Hatta</p>
+                <p>O8.10 WIB - Sultan Hasanuddin</p>
               </div>
 
               <h3
@@ -67,7 +57,7 @@ const DetailHotel = () => {
                   marginTop: "30px",
                 }}
               >
-                IDR 2.500.000
+                IDR 968.100
               </h3>
 
               <div className="d-flex justify-content-end mt-3">
@@ -82,4 +72,4 @@ const DetailHotel = () => {
   );
 };
 
-export default DetailHotel;
+export default BasketPage;
