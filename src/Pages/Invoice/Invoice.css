@@ -1,0 +1,86 @@
+  .detail_booking {
+    background-color: #ffffff;
+    width: 40%;
+    padding: 20px 10px 15px 10px;
+    border-radius: 10px;
+    
+  }
+
+  .detail_item {
+    width: 251px;
+    height: auto;
+    left: 370px;
+    top: 75px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: white;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .detail_item__hotel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .detail_item__hotel:before {
+    content: "Nama Hotel:";
+  }
+  
+  .detail_item__hotel span {
+    font-weight: bold;
+  }
+  
+
+  .item{
+    color: #1b68da;
+    font-size: large;
+  }
+
+  .button_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+  }
+  
+  .button_invoice {
+    background-color: #faff00;
+    color: #1b68da;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: none;
+    padding: 5px;
+    width: 90px;
+    border-radius: 20px;
+  }  
+  
+  .button_booking:hover {
+    color: #faff00;
+    background-color: #1b68da;
+  }
+  
+  .invoice_section {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .detail_booking_section {
+    width:1550px;
+    height:500px;
+    position:absolute;
+    left:800px;
+    top:150px;
+  }
