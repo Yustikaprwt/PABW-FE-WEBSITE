@@ -5,6 +5,8 @@ import Dashboard from "../Pages/Dashboard/Dashboard";
 import SearchFlight from "../Pages/Search Flight/SearchFlight";
 import SearchHotel from "../Pages/Search Hotel/SearchHotel";
 import FlightSchedule from "../Pages/Flight Schedule/FlightSchedule";
+import Booking from "../Pages/Booking/Booking";
+import Invoice from "../Pages/Invoice/Invoice";
 
 const Routers = () => {
   return (
@@ -15,6 +17,8 @@ const Routers = () => {
         <Route path="/search/flight" element={<SearchFlight />} />
         <Route path="/search/hotel" element={<SearchHotel />} />
         <Route path="/search/flight/schedule" element={<FlightSchedule />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/invoice" element={<Invoice />} />
       </Routes>
     </BrowserRouter>
   );
