@@ -1,15 +1,15 @@
 import React from "react";
-import "../Basket Page/BasketPage.css";
+import "../History/History.css";
 import { BiWallet } from "react-icons/bi";
 import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
 import { GiAirplaneDeparture } from "react-icons/gi";
 import Footer from "../../Component/Footer/Footer";
 
-const BasketPage = () => {
+const History = () => {
   return (
     <>
-      <div className="navbar_basket_page">
+      <div className="navbar_history_page">
         <nav className="nav_dahboard">
           <button className="button_logout btn btn-danger">Logout</button>
           <ul>
@@ -61,7 +61,12 @@ const BasketPage = () => {
               </h3>
 
               <div className="d-flex justify-content-end mt-3">
-                <button className="booking_button">Book</button>
+                <button
+                  className="refund_button"
+                  style={{ backgroundColor: "red", color: "white" }}
+                >
+                  Refund
+                </button>
               </div>
             </div>
           </div>
@@ -72,4 +77,4 @@ const BasketPage = () => {
   );
 };
 
-export default BasketPage;
+export default History;

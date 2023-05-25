@@ -1,0 +1,14 @@
+.navbar_history_page {
+  background-color: #136aa4;
+}
+
+.refund_button {
+  width: 100px;
+  padding: 7px 7px;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.refund_button:hover {
+  background-color: darkgray !important;
+}

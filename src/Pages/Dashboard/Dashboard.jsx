@@ -3,8 +3,8 @@ import "../Dashboard/Dashboard.css";
 import Card from "react-bootstrap/Card";
 import Service1 from "../../Assets/Service_1.jpg";
 import Service2 from "../../Assets/Service_2.jpg";
+import { RiChatHistoryFill } from "react-icons/ri";
 import { BiWallet } from "react-icons/bi";
-import { SlBasket } from "react-icons/sl";
 import { CgProfile } from "react-icons/cg";
 import Airplane from "../../Assets/Airplane.jpg";
 import Hotel from "../../Assets/Hotel.jpg";
@@ -22,8 +22,8 @@ const Dashboard = () => {
               <BiWallet className="icon_navbar_login" />
             </li>
             <li>
-              <Link to="/basket">
-                <SlBasket className="icon_navbar_login" />
+              <Link to="/history">
+                <RiChatHistoryFill className="icon_navbar_login" />
               </Link>
             </li>
             <li>
