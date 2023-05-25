@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.body-regist {
+    background: linear-gradient(to left, #82b0f5, #1B68DA, #1B68DA );
+    
+  }
+
+.registrasi {
+    width: 65vw;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.regis-title {
+    color: #002152;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.registrasi span {
+    color: #002152;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+}
+
+#form > input, .btn {
+    border: 1px solid #1B68DA;
+    padding: .5em 1em;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+.button_akun_regist:hover {
+    background-color: #96a6ec !important;
+}
+
+.form-select {
+    border: 1px solid #1B68DA !important;
+    padding: .5em 1em !important;
+    border-radius: 200rem !important;
+    margin-top: 5px !important;
+}
+
+#form > input:focus{
+    outline: none;
+}
+
+#form > .btn-regis{
+    background-color: #1B68DA;  
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: .2em 1em;
+
+}
+
+.flex{
+    display: flex;
+    gap: 1em;
+}
+  
+.flex-col{
+    flex-direction: column;
+}
+  
+.registrasi .col{
+    margin: auto;
+    padding: 3em 0;
+}
